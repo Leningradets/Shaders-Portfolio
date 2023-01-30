@@ -7,44 +7,21 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bomber
-  m_Shader: {fileID: -6465566751694194690, guid: 0063de4c4da71d845a99008a484d8bdb, type: 3}
+  m_Name: New Material
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_18a046d4a74348579e096b05b796376e:
-        m_Texture: {fileID: 2800000, guid: b067be02a4fa79540bf2c11c8587b618, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_234ae9488c5c410da4d4c0625f724bef:
-        m_Texture: {fileID: 2800000, guid: 29e65e4d938c19f44975a8d0d0401404, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_2c0f6900f07a4917b46d7220f4fa04b0:
-        m_Texture: {fileID: 2800000, guid: 8849df5740b2e5f4fae460f089fdadb7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_c078629866284ee1865c37924f08d2e3:
-        m_Texture: {fileID: 2800000, guid: 1bfd4ab10511f8e4b93323f14474272b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_c078629866284ee1865c37924f08d2e3_1:
-        m_Texture: {fileID: 2800000, guid: 55139a6d35e0e1d4aa6aec2e7e3713d5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Bomber_a87e28925f3d453b86de9164b9d602ff_Texture2Db56f306530644b41bf7f0d288be93dae_4129957657:
-        m_Texture: {fileID: 2800000, guid: 7ca930a191bc0ba4094c78f3a4b78f87, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -100,24 +77,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_01da0f6b05e64171b2613c774240a263: 1
-    - Vector1_1: 0.599
-    - Vector1_114f2d382375423084e5e14554b88664: -0.84
-    - Vector1_2: 0.172
-    - Vector1_2b861860011b4e0f974f4c23e7c54883: 0.984
-    - Vector1_330bacb312684104bb079cf77b1ce117: 1
-    - Vector1_45570f151d93416abfe7f4ba06f55136: 0.639
-    - Vector1_4572b1ecb49c473d8187bfcba05f4908: 0.677
-    - Vector1_4aaa21034c0340c8924da9aba87f7a88: 1
-    - Vector1_7f4995262c494b2b84667b383e93033e: 0.683
-    - Vector1_9263f607d1f34b7bb61abc316536f8e8: 21.26
-    - Vector1_9de43fba7fe74d788651b99845511c05: 2.05
-    - Vector1_a2957411993f43ffa060bd4aa574e73e: 0.86
-    - Vector1_a9fe28284cb1496aa4d077bf42a5d1b4: 5
-    - Vector1_ba32ba6309f246c4872702cf94d06bb9: 0.425
-    - Vector1_f43fc6cf183d4a52a0e88879f234b1d0: 2
-    - Vector1_f43fc6cf183d4a52a0e88879f234b1d0_1: 3.1
-    - Vector1_f84dfc335569445db3c1cf65df0b19fb: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -145,13 +104,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Vector2_318484cb6ba2446c99e4ea33060adf7b: {r: 5, g: 5, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &3214493175461287864
+--- !u!114 &4068390663254908811
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
